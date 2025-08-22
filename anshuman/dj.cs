@@ -18,7 +18,7 @@ namespace SupplierAPI.Controllers
             _config = config;
         }
 
-        // REGISTER SUPPLIER
+        
         [HttpPost("register")]
         public IActionResult Register([FromBody] SupplierRegisterDto request)
         {
